@@ -58,9 +58,9 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "delavec_projekt";
+$username = "aljazk";
+$password = "geslo-cpanel-admin";
+$dbname = "aljazk_podjetje_sers";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 $sql = "SELECT * FROM podjetje";
